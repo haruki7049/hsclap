@@ -1,3 +1,3 @@
 main :: IO ()
 main = do
-  putStrLn "hsclap"
+  putStrLn "foofoo!!"
