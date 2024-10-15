@@ -3,4 +3,3 @@ compiler: ghc-9.8.2
 nix:
   enable: true
   pure: true
-  #shell-file: shell.nix
