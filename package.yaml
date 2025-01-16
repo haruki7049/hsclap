@@ -1,0 +1,22 @@
+name: hsclap
+version: 0.1.0.0
+description: "Haskell Command Line Arguments Parser"
+github: haruki7049/hsclap
+author: "haruki7049 <tontonkirikiri@gmail.com>"
+verbatim:
+  cabal-version: 3.8
+library:
+  source-dirs: src
+  dependencies:
+    - base
+language: Haskell2010
+ghc-options:
+  - -Wall
+  - -Wcompat
+  - -Widentities
+  - -Wincomplete-record-updates
+  - -Wincomplete-uni-patterns
+  - -Wmissing-export-lists
+  - -Wmissing-home-modules
+  - -Wpartial-fields
+  - -Wredundant-constraints

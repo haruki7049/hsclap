@@ -1,30 +1,34 @@
 cabal-version: 3.8
-name:          hsclap
-version:       0.1.0.0
-description:
-  Please see the README on GitHub at: https://github.com/haruki7049/hsclap#readme
 
-homepage:      https://github.com/haruki7049/hsclap
-build-type:    Simple
+-- This file has been generated from package.yaml by hpack version 0.37.0.
+--
+-- see: https://github.com/sol/hpack
+
+name:           hsclap
+version:        0.1.0.0
+description:    Haskell Command Line Arguments Parser
+homepage:       https://github.com/haruki7049/hsclap#readme
+bug-reports:    https://github.com/haruki7049/hsclap/issues
+author:         haruki7049 <tontonkirikiri@gmail.com>
+maintainer:     haruki7049 <tontonkirikiri@gmail.com>
+license:        MIT
+license-file:   LICENSE
+build-type:     Simple
 
 source-repository head
-  type:     git
+  type: git
   location: https://github.com/haruki7049/hsclap
 
 library
-  hs-source-dirs:   src
-  build-depends:    base
-  default-language: Haskell2010
-  exposed-modules:  Hsclap
-  ghc-options:
-    -Wall -Wcompat -Widentities -Wincomplete-record-updates
-    -Wincomplete-uni-patterns -Wmissing-export-lists
-    -Wmissing-home-modules -Wpartial-fields -Wredundant-constraints
-
-executable foofoo-cli
-  main-is:          Main.hs
-  hs-source-dirs:   examples/foofoo-cli
-  default-language: Haskell2010
+  exposed-modules:
+      Hsclap
+  other-modules:
+      Paths_hsclap
+  autogen-modules:
+      Paths_hsclap
+  hs-source-dirs:
+      src
+  ghc-options: -Wall -Wcompat -Widentities -Wincomplete-record-updates -Wincomplete-uni-patterns -Wmissing-export-lists -Wmissing-home-modules -Wpartial-fields -Wredundant-constraints
   build-depends:
-    , base
-    , hsclap
+      base
+  default-language: Haskell2010
